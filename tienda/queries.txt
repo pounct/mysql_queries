@@ -6,6 +6,8 @@ Tenim les taules producto i fabricador, cadascuna amb els següents camps:
 El camp 'codigo_fabricante' de l'entitat producto es relaciona amb el camp 'codi' de l'entitat fabricante.
 Si us plau, efectua les següents consultes:
 
+
+
 1. Llista el nom de tots els productes que hi ha en la taula producto.
 
 SELECT nombre FROM producto;
@@ -283,6 +285,7 @@ FROM
 JOIN fabricante ON producto.codigo_fabricante = fabricante.codigo AND fabricante.nombre LIKE 'Lenovo';
 
 
+
 27. Retorna una llista de tots els productes del fabricant Crucial que tinguin un preu major que 200 €.
 
 SELECT
@@ -531,3 +534,13 @@ WHERE
 );
 
 /////////////////////////////////////////////////// fin  ///////////////////////////////
+
+
+
+
+
+
+
+
+
+
